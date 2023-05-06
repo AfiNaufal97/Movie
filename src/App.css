@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.Movie-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Movie-wrapper{
+  width: 500px;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.Movie-search{
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: bold;
+}
